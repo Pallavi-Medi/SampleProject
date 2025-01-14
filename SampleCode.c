@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello Pallavi");
+    char name[40];
+    printf("Enter Name:");
+    fgets(name, 40, stdin);
+    printf("Hello %s", name);
     return 0;
 }
